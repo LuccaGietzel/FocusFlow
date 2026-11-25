@@ -1,0 +1,20 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.6.9/schema.json",
+  "formatter": {
+    "enabled": true
+  },
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "nursery": {
+        "useTailwindSortedClasses": {
+          "level": "info",
+          "fix": "safe"
+        }
+      }
+    }
+  },
+  "tailwind": {
+    "stylesheet": "./src/index.css"
+  }
+}
