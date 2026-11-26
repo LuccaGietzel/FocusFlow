@@ -54,8 +54,8 @@ export default function Timer() {
 	}
 
 	return (
-		<div className="flex h-screen items-center justify-center">
-			<div className="flex flex-col items-center rounded-2xl bg-rose-300 px-15 py-12">
+		<div className="flex items-center justify-center">
+			<div className="flex flex-col items-center rounded-2xl bg-rose-300 px-15 py-12 shadow-2xl">
 				<div className="inline-flex items-center justify-center gap-2 pb-3">
 					<p className="h-fit pb-1.5 text-2xl text-white">
 						{isWorkTime ? "Work Time" : "Break Time"}
